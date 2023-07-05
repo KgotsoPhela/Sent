@@ -22,6 +22,16 @@ with st.expander('Analyze Text'):
 
                                              # SECOND EXPANDER
 with st.expander('Analyze CSV'):
+
+    st.write("The uploaded CSV file should be in the following format...")
+    data = {
+    'ID': range(1, 3),
+    'tweets':[
+        "I am not happy with the services you provide",
+        "The service and customer support was really great, I am happy",    ]
+    }
+    df = pd.DataFrame(data)
+    st.dataframe(df)
     upl = st.file_uploader('Upload file')
 
     def score(x):
