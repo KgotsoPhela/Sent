@@ -68,3 +68,4 @@ with st.expander('Analyze CSV'):
             file_name='sentiment.csv',
             mime='text/csv',
         )
+        st.write("The data will be used for reports and further analysis")
