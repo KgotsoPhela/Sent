@@ -27,7 +27,7 @@ with st.expander('Analyze CSV'):
     data = {
     'ID': range(1, 3),
     'tweets':[
-        "Message or customer feedback number one",
+        "Message or customer feedback number 1",
         "Message or customer feedback number 2",    ]
     }
     df = pd.DataFrame(data)
