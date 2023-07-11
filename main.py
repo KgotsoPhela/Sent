@@ -165,7 +165,19 @@ if selected == "Analysis":
                 # Provide the PDF file for download
                 st.markdown(f"Download the PDF report: [report.pdf](./{output_pdf})")
 elif selected == "Home":
-    st.write("Home coming soon")
+    st.set_page_config(page_title="Sentiment Analysis App", page_icon=":bar_chart:")
+
+    # Page title and description
+    st.title("Sentiment Analysis App")
+    st.markdown("Perform sentiment analysis on text data and CSV files.")
+
+    # Home page content
+    st.write("Welcome to the Sentiment Analysis App! Analyze the sentiment of text or upload a CSV file for analysis.")
+
+    # Quick links
+    st.subheader("Quick Links")
+    st.markdown("[Analyzing Text](#analyze-text)")
+    st.markdown("[Analyzing CSV](#analyze-csv)")
 
 elif selected == "About":
     st.write("About coming soon...")
