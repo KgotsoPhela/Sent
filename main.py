@@ -4,7 +4,7 @@ import streamlit as st
 import cleantext
 from io import StringIO
 import plotly.graph_objects as go
-from streamlit_option_menu import option_menu
+
 
 # FIRST EXPANDER
 st.header('Lubanzi Sentiment Analysis')
