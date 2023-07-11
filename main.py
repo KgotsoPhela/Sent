@@ -32,9 +32,10 @@ if selected == "Analysis":
         if text:
             blob = TextBlob(text)
             st.write('Polarity: ', round(blob.sentiment.polarity, 2))
-            st.write("positive values indicates positive sentiment, negative value for negative sentiment and 0 for Neutral")
             st.write('Subjectivity: ', round(blob.sentiment.subjectivity, 2))
-            st.write("Measures how subjective or objective the text is. High subjectivity score indicates that the text is more opinionated or subjective, low score suggests a more objective or factual nature of the text.")
+            St.write(" ")
+            st.write("Polarity: Positive values indicates positive sentiment, negative value for negative sentiment and 0 for Neutral")
+            st.write("Subjectivity: Measures how subjective or objective the text is. High subjectivity score indicates that the text is more opinionated or subjective, low score suggests a more objective or factual nature of the text.")
     
 
         #pre = st.text_input('Clean Text: ')
