@@ -121,8 +121,8 @@ if selected == "Analysis":
 
             # Adjust the size of the plot
             fig.update_layout(
-                width=400,  # Set the width of the plot
-                height=300  # Set the height of the plot
+                width=800,  # Set the width of the plot
+                height=400  # Set the height of the plot
             )
 
             # Display the plot in Streamlit
