@@ -165,7 +165,7 @@ if selected == "Analysis":
                 # Provide the PDF file for download
                 st.markdown(f"Download the PDF report: [report.pdf](./{output_pdf})")
 elif selected == "Home":
-    st.set_page_config(page_title="Sentiment Analysis App", page_icon=":bar_chart:")
+    #st.set_page_config(page_title="Sentiment Analysis App", page_icon=":bar_chart:")
 
     # Page title and description
     st.title("Sentiment Analysis App")
