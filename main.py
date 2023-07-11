@@ -33,6 +33,7 @@ if selected == "Analysis":
             blob = TextBlob(text)
             st.write('Polarity: ', round(blob.sentiment.polarity, 2))
             st.write('Subjectivity: ', round(blob.sentiment.subjectivity, 2))
+            st.write("Polarity refers to the degree of positivity or negativity in a piece of text. It is a measure of sentiment, with positive values indicating positive sentiment, negative values indicating negative sentiment, and zero representing neutral sentiment.")
 
         #pre = st.text_input('Clean Text: ')
         #if pre:
