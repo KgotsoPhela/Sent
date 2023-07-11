@@ -169,28 +169,7 @@ elif selected == "Home":
     st.markdown("Perform sentiment analysis on text or CSV files.")
 
     st.subheader("Quick Links")
-    st.markdown("[Quick Guide](#quick-guide)")
-    st.markdown("[Analyze Text](#analyze-text)")
-    st.markdown("[Analyze CSV](#analyze-csv)")
-
-    st.subheader("Quick Guide")
-    st.markdown("**Polarity:** Positive values indicate positive sentiment, negative values for negative sentiment, and 0 for Neutral.")
-    st.markdown("**Subjectivity:** Measures how subjective or objective the text is. High subjectivity score indicates that the text is more opinionated or subjective, low score suggests a more objective or factual nature of the text.")
-
-    st.subheader("Analyze Text")
-    st.markdown("To analyze the sentiment of text, enter your text in the input box below and click the 'Analyze' button.")
-    text = st.text_area("Enter text here", height=150)
-    if st.button("Analyze"):
-        # Perform sentiment analysis on the entered text and display the results
-        # Add your code here
-
-    st.subheader("Analyze CSV")
-    st.markdown("To analyze the sentiment of a CSV file, upload your CSV file below and click the 'Analyze' button.")
-    csv_file = st.file_uploader("Upload CSV file")
-    if st.button("Analyze"):
-        if csv_file is not None:
-            # Perform sentiment analysis on the uploaded CSV file and display the results
-            # Add your code here
+  
 
 
 elif selected == "About":
