@@ -51,8 +51,8 @@ if selected == "Analysis":
         #        )
         #    )
     elif selecte == "Quick guide":
-         st.write("**Polarity:** Positive values indicates positive sentiment, negative values for negative sentiment and 0 for Neutral.")
-            st.write("**Subjectivity:** Measures how subjective or objective the text is. High subjectivity score indicates that the text is more opinionated or subjective, low score suggests a more objective or factual nature of the text.")
+        st.write("**Polarity:** Positive values indicates positive sentiment, negative values for negative sentiment and 0 for Neutral.")
+        st.write("**Subjectivity:** Measures how subjective or objective the text is. High subjectivity score indicates that the text is more opinionated or subjective, low score suggests a more objective or factual nature of the text.")
 
     elif selected == "Analyze CSV":
         #st.header('Lubanzi Sentiment Analysis - Analyze CSV')
