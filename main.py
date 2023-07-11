@@ -3,9 +3,9 @@ import pandas as pd
 import streamlit as st
 import cleantext
 from io import StringIO
-import pdfkit
+#import pdfkit
 import os
-import tempfile
+#import tempfile
 import plotly.graph_objects as go
 from streamlit_option_menu import option_menu
 
