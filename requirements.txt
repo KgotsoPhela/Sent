@@ -70,9 +70,4 @@ validators==0.20.0
 watchdog==2.1.9
 wcwidth==0.2.5
 zipp==3.8.1
-streamlit
-pandas
-textblob
-cleantext
-plotly
-streamlit-option-menu
+plotly==5.13.1
