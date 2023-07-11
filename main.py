@@ -165,7 +165,7 @@ if selected == "Analysis":
                 # Provide the PDF file for download
                 st.markdown(f"Download the PDF report: [report.pdf](./{output_pdf})")
 elif selected == "Home":
-    st.title("Welcome to the Sentiment Analysis App")
+    st.title("Sentiment Analysis App")
     st.markdown("Perform sentiment analysis on text or CSV files.")
 
     st.subheader("Quick Links")
