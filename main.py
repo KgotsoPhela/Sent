@@ -23,8 +23,8 @@ if selected == "Analysis":
     st.header('Lubanzi Sentiment Analysis')
     selected = option_menu(
         menu_title=None,
-        options=["Analyze Text", "Analyze CSV"],
-        icons=["activity", "bar-chart"],
+        options=["Quick guide","Analyze Text", "Analyze CSV"],
+        icons=["exclamation-lg", "activity", "bar-chart"],
         orientation="horizontal"
     )
     if selected == "Analyze Text":
@@ -34,8 +34,7 @@ if selected == "Analysis":
             st.write('Polarity: ', round(blob.sentiment.polarity, 2))
             st.write('Subjectivity: ', round(blob.sentiment.subjectivity, 2))
             st.write(" ")
-            st.write("**Polarity:** Positive values indicates positive sentiment, negative values for negative sentiment and 0 for Neutral.")
-            st.write("**Subjectivity:** Measures how subjective or objective the text is. High subjectivity score indicates that the text is more opinionated or subjective, low score suggests a more objective or factual nature of the text.")
+           
     
 
         #pre = st.text_input('Clean Text: ')
@@ -51,6 +50,9 @@ if selected == "Analysis":
         #            punct=True,
         #        )
         #    )
+    elif selecte == "Quick guide":
+         st.write("**Polarity:** Positive values indicates positive sentiment, negative values for negative sentiment and 0 for Neutral.")
+            st.write("**Subjectivity:** Measures how subjective or objective the text is. High subjectivity score indicates that the text is more opinionated or subjective, low score suggests a more objective or factual nature of the text.")
 
     elif selected == "Analyze CSV":
         #st.header('Lubanzi Sentiment Analysis - Analyze CSV')
