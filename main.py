@@ -158,8 +158,3 @@ if selected == "Analysis":
 
                 # Provide the PDF file for download
                 st.markdown(f"Download the PDF report: [report.pdf](./{output_pdf})")
-elif selected == "Home":
-    st.write("Home coming soon")
-
-elif selected == "About":
-    st.write("About coming soon...")
