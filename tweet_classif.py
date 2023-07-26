@@ -9,7 +9,7 @@ import openai
 
 
 
-openai.api_key = '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'
+openai.api_key = 'sk-hcskFhxfx5yFzOdRaEVBT3BlbkFJl8j1I6ssksTchL8O03lWsk-hcskFhxfx5yFzOdRaEVBT3BlbkFJl8j1I6ssksTchL8O03lW'
 # Define the Streamlit app layout
 def app():
     # Set the page title
@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
 
 # Set up your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "sk-hcskFhxfx5yFzOdRaEVBT3BlbkFJl8j1I6ssksTchL8O03lWsk-hcskFhxfx5yFzOdRaEVBT3BlbkFJl8j1I6ssksTchL8O03lW"
 
 # Define the Streamlit app layout
 def app():
